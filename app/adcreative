@@ -1,0 +1,11 @@
+adcreative/
+├── app/
+│   ├── main.py                # FastAPI entry point with routes
+│   ├── shutterstock_api.py    # Handles Shutterstock API integration
+│   ├── openai_api.py          # Handles OpenAI image generation
+│   ├── prompt_engineering.py  # Reverse engineers prompts from existing ads
+│   ├── config.py              # Loads API keys from .env
+│   ├── models.py              # Pydantic models for requests/responses
+│   └── utils/                 # Helper functions
+├── .env                       # API keys (not in git)
+└── requirements.txt           # Dependencies
