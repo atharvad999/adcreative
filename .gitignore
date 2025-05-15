@@ -1,6 +1,10 @@
 # Ignore frontend directory
 frontend/
 new_frontend/
+creatives-frontend/
+
+#Ignore local images
+static/
 
 # Python
 __pycache__/
